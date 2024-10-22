@@ -51,7 +51,7 @@ module "vm" {
   ## OS CONFIG
 
   
-  source_image_id = "dbschenker-win22/versions/2023.05.26" #p for win22
+  source_image_id = "dbschenker-win22/versions/2024.07.23" #p for win22
 
   
   
@@ -70,7 +70,7 @@ module "vm" {
   # task          =
 
   # comment below line if Grafana dashboard is not required
-  grafana_enabled          = true
+  #grafana_enabled          = true
   # uncomment below line if Grafana Kits(folder, notification channel, team) are required
   # grafana_kits             = true
   # uncomment below line and change the value if overwrite default dashboard user is required
